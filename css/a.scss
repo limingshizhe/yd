@@ -65,6 +65,9 @@ html{
                 border-radius: 28px;
                 font-size:10/$sc+rem; 
                 color: #fff;
+                a{
+                  color: #fff;  
+                }
                 &:nth-child(1){
                     top: 38%;
                     left: 6%;
