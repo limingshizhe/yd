@@ -13,7 +13,7 @@ html body .advertising { width: 100%; height: 6.6666666667rem; background: #6060
 html body .advertising button { position: absolute; width: 3rem; height: 1.6666666667rem; border: none; border-radius: 28px; font-size: 0.6666666667rem; color: #fff; }
 html body .advertising button:nth-child(1) { top: 38%; left: 6%; background: #5AC1C6; }
 html body .advertising button:nth-child(2) { top: 38%; right: 6%; background: #EA6874; }
-html body .advertising img { border: 5px solid #fff; border-radius: 50%; width: 5.3333333333rem; height: 5.3333333333rem; position: absolute; left: 31.5%; top: 6%; }
+html body .advertising img { border: 5px solid #fff; border-radius: 50%; width: 5.3333333333rem; height: 5.3333333333rem; position: absolute; left: 31.5%; top: 6%; animation: slider 8s linear infinite; }
 html body .ml { width: 100%; height: 5.3333333333rem; border-bottom: 1px solid #000; }
 html body .ml ul { list-style: none; }
 html body .ml ul li { margin-top: 0.4rem; width: 25%; float: left; text-align: center; position: relative; }
@@ -25,5 +25,8 @@ html body .ml ul li a .b { color: #FDBE0E; }
 html body .ml ul li a .c { color: #F05FA4; }
 html body .ml ul li a .d { color: #40C1C6; }
 html body .ml ul .ml-lis::after { content: ""; width: 100%; height: 0.2rem; background: #FA2D4C; position: absolute; left: 0; bottom: -0.6666666667rem; border-radius: 5px; }
+
+@keyframes slider { from { transform: rotateZ(0deg); }
+  to { transform: rotateZ(360deg); } }
 
 /*# sourceMappingURL=a.css.map */

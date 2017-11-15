@@ -83,6 +83,7 @@ html{
                 position: absolute;
                 left: 31.5%;
                 top: 6%;
+                animation: slider 8s linear infinite;
             }
         }
         .ml{
@@ -142,4 +143,8 @@ html{
         
         
     }
+}
+@keyframes slider{
+    from{transform: rotateZ(0deg); }
+    to{transform: rotateZ(360deg);}
 }
