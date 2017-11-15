@@ -8,7 +8,7 @@ html{
     height: 100%;
     body{
         @extend html;
-        background: url(../img/u.jpg)-450px 0px;
+        background: url(../img/u.jpg)-400px 0px;
         background-size: cover;
         background-repeat: no-repeat;
         .mask{
@@ -18,7 +18,7 @@ html{
             overflow: hidden;
             .jz{
                 width: 100%;
-                height: 55%;
+                height: 260/$sc+rem;
                 position: absolute;
                 left: 0;
                 bottom: 0;
@@ -28,13 +28,13 @@ html{
                     font-size: 8/$sc+rem;
                     color:#FA2D4C ;
                     border-bottom: 1/$sc+rem solid #FA2D4C;
-                    width: 80/$sc+rem;
+                    width: 85/$sc+rem;
                     margin-left: 73/$sc+rem;
                 }
                 p{
                     font-size: 6/$sc+rem;
                     color:#FA2D4C ;
-                    width: 38/$sc+rem;
+                    width: 40/$sc+rem;
                     margin-left: 73/$sc+rem;
                     border-bottom: 1/$sc+rem solid #FA2D4C;
                 }
@@ -98,14 +98,14 @@ html{
                         position: absolute;
                         left: 15/$sc+rem;
                         top: 93/$sc+rem;
-                        width: 22/$sc+rem;
+                        width: 25/$sc+rem;
  
                     }
                     .wjm{
                        position: absolute;
                         right: 15/$sc+rem;
                         top: 93/$sc+rem;
-                        width: 30/$sc+rem; 
+                        width: 33/$sc+rem; 
                     }
                     button{
                         width: 180/$sc+rem;
