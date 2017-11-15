@@ -5,26 +5,33 @@
 		<title></title>
 		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 		<link rel="stylesheet" href="css/b.css" />
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js" ></script>
+        <script type="text/javascript" src="js/b.js" ></script>
 		<script type="text/javascript">
     	  document.documentElement.style.fontSize=innerWidth/15+"px";
+
         </script>
+        
 	</head>
 	<body>
 		<div class="mask">
+			
 			<div class="jz">
 				<h4>Gerate new account</h4>
 				<p>创建新用户</p>
-				<form action="" method="post" class="fo">
+				<!-- action="" method="post"-->
+				<form class="fo">
 					Usre Name<span class="sp">/用户名</span><br />
-					<input type="text" name="username" id="username" value="" /><br />
+					<input type="text" name="username" id="username" /><br />
 					Password<span class="spn">/密码</span><br />
-					<input type="text" name="psssword" id="psssword" value="" /><br />
+					<input type="text" name="psssword" id="psssword" /><br />
 					<h6 class="ber">Remember me</h6>
 					<h6 class="my">l forget my password</h6>
 					<input type="checkbox" class="che"  name="f"/>
 					<input type="checkbox" class="chec" name="f"/>
 					<p class="jzw">记住我</p>
 					<p class="wjm">忘记密码</p>
+					
 					<button id="dl">登录</button>
 				</form>
 			</div>

@@ -1,7 +1,7 @@
 * { margin: 0; padding: 0; }
 
 html, html body, html body .mask { width: 100%; height: 100%; }
-html body, html body .mask body { background: url(../img/u.jpg)-400px 0px; background-size: cover; background-repeat: no-repeat; }
+html body, html body .mask body { background: url(../img/u.jpg)-250px 0px; background-size: cover; background-repeat: no-repeat; }
 html body .mask { background: rgba(0, 0, 0, 0.2); position: relative; overflow: hidden; }
 html body .mask .jz { width: 100%; height: 17.3333333333rem; position: absolute; left: 0; bottom: 0; background: rgba(0, 0, 0, 0.4); text-align: center; }
 html body .mask .jz h4 { font-size: 0.5333333333rem; color: #FA2D4C; border-bottom: 0.0666666667rem solid #FA2D4C; width: 5.6666666667rem; margin-left: 4.8666666667rem; }
@@ -18,6 +18,6 @@ html body .mask .jz .fo .chec { width: 0.6666666667rem; height: 0.6666666667rem;
 html body .mask .jz .fo p { float: left; margin: 0; }
 html body .mask .jz .fo .jzw { position: absolute; left: 1rem; top: 6.2rem; width: 1.6666666667rem; }
 html body .mask .jz .fo .wjm { position: absolute; right: 1rem; top: 6.2rem; width: 2.2rem; }
-html body .mask .jz .fo button { width: 12rem; height: 1.2rem; border: none; background: #508185; opacity: 0.3; border-radius: 0.3333333333rem; color: #fff; margin-top: 2rem; }
+html body .mask .jz .fo button { width: 12rem; height: 1.2rem; border: none; background: #508185; opacity: 0.3; border-radius: 0.3333333333rem; color: #fff; margin-top: 1.6rem; }
 
 /*# sourceMappingURL=b.css.map */
