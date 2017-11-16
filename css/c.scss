@@ -1,0 +1,109 @@
+$sc:15;
+a{
+    -webkit-tap-highlight-color: transparent;
+}
+ul,ol{
+    list-style: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+    height: 100%;
+    body{
+ 
+        @extend html;
+        .nav{
+            width: 100%;
+            background: #000;
+            height: 30/$sc+rem;
+            text-align: center;
+            line-height:  30/$sc+rem;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 99;
+            h1{
+                color: #fff;
+                font-size: 10/$sc+rem;
+                font-weight: 400;
+            }
+            .nav-name{
+                width: 25/$sc+rem;
+                height: 19/$sc+rem;
+                position: absolute;
+                right: 8px;
+                top:20%;
+                span{
+                    width: 100%;
+                    height: 2px;
+                    display: inline-block;
+                    background: #676767;
+                    position: absolute;
+                    left: 0;
+                    &:nth-child(1){
+                        top: 0px;
+                    }
+                    &:nth-child(2){
+                        top: 50%;
+                        margin-top: -2px;
+                    }
+                    &:nth-child(3){
+                        bottom: 1px;
+                    }
+                }
+            }
+        }
+     
+    .lbt{
+        width: 100%;
+        height: 240/$sc+rem;
+       overflow: hidden;
+        position: relative;
+         top: 30/$sc+rem;
+       ul{
+           width: 200%;
+           height: 100%;
+           position: relative;
+           
+           li{
+               width: 50%;
+               height: 100%;
+               position: absolute;
+               left: 50%;
+               img{
+                   width: 100%;
+                   height: 100%;
+                   display: block;
+               }
+           }
+           .lis{
+               left: 0;
+           }
+           
+       }
+       ol{
+           width: 130/$sc+rem;
+           height: 20/$sc+rem;
+           
+           position: absolute;
+           bottom: 10/$sc+rem;
+           left: 50%;
+           margin-left:- 65/$sc+rem;
+           li{
+               width: 10/$sc+rem;
+               height: 10/$sc+rem;
+               float: left;
+               margin:0 3px ;
+               background: #676767;
+               border-radius: 50%;
+           }
+           .lisl{
+               background: #e2e2e2;
+           }
+       }
+    }
+    }
+}        

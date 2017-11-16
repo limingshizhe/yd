@@ -3,6 +3,9 @@ $sc:15;
     margin: 0;
     padding: 0;
 }
+a{
+    -webkit-tap-highlight-color: transparent;
+}
 html{
     width: 100%;
     height: 100%;
@@ -11,12 +14,23 @@ html{
         background: url(../img/u.jpg)-250px 0px;
         background-size: cover;
         background-repeat: no-repeat;
+        .hid{
+             display: none;
+            width: 100/$sc+rem;
+            height: 100/$sc+rem;
+            margin: 0 auto;
+            text-align: center;
+            line-height:  100/$sc+rem;
+            a{
+                color: #fff;
+                font-size: 10/$sc+rem;
+            }
+        }
         .mask{
             @extend html;
             background: rgba(0,0,0,0.2);
             position: relative;
             overflow: hidden;
-           
             .jz{
                 width: 100%;
                 height: 260/$sc+rem;

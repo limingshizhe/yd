@@ -1,7 +1,11 @@
 * { margin: 0; padding: 0; }
 
+a { -webkit-tap-highlight-color: transparent; }
+
 html, html body, html body .mask { width: 100%; height: 100%; }
 html body, html body .mask body { background: url(../img/u.jpg)-250px 0px; background-size: cover; background-repeat: no-repeat; }
+html body .hid { display: none; width: 6.6666666667rem; height: 6.6666666667rem; margin: 0 auto; text-align: center; line-height: 6.6666666667rem; }
+html body .hid a { color: #fff; font-size: 0.6666666667rem; }
 html body .mask { background: rgba(0, 0, 0, 0.2); position: relative; overflow: hidden; }
 html body .mask .jz { width: 100%; height: 17.3333333333rem; position: absolute; left: 0; bottom: 0; background: rgba(0, 0, 0, 0.4); text-align: center; }
 html body .mask .jz h4 { font-size: 0.5333333333rem; color: #FA2D4C; border-bottom: 0.0666666667rem solid #FA2D4C; width: 5.6666666667rem; margin-left: 4.8666666667rem; }
