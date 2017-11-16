@@ -85,23 +85,23 @@ html{
            
        }
        ol{
-           width: 130/$sc+rem;
+           width: 100/$sc+rem;
            height: 20/$sc+rem;
            
            position: absolute;
            bottom: 10/$sc+rem;
            left: 50%;
-           margin-left:- 65/$sc+rem;
+           margin-left:- 50/$sc+rem;
            li{
-               width: 10/$sc+rem;
-               height: 10/$sc+rem;
+               width: 6/$sc+rem;
+               height: 6/$sc+rem;
                float: left;
                margin:0 3px ;
-               background: #676767;
+               background: #fff;
                border-radius: 50%;
            }
            .lisl{
-               background: #e2e2e2;
+               background: red;
            }
        }
     }
