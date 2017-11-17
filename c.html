@@ -3,13 +3,19 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		
 		<link rel="stylesheet" href="css/c.css" />
 		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 		<script type="text/javascript" src="js/jquery-3.2.1.min.js" ></script>
 		<script type="text/javascript" src="js/a.js" ></script>
-		<script type="text/javascript" src="js/c.js" ></script>
+		
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<script type="text/javascript" src="js/swiper.min.js" ></script>
+		<!--<script type="text/javascript" src="js/c.js" ></script>-->
 	</head>
 	<body>
+	
+	
 	<nav class="nav">
 		<h1>我的音乐</h1>
 		<div class="nav-name">
@@ -18,29 +24,39 @@
 			<span></span>
 	    </div>
 	</nav>
-	<div class="lbt">
-		<ul id="uls">
-			<li class="lis"><img src="img/1.jpg"></li>
-			<li><img src="img/2.jpg"></li>
-			<li><img src="img/3.jpg"></li>
-			<li><img src="img/4.jpg"></li>
-			<li><img src="img/5.jpg"></li>
-			<li><img src="img/6.jpg"></li>
-			<li><img src="img/7.jpg"></li>
-			<li><img src="img/8.jpg"></li>
-		</ul>
-		<ol id="ols">
-			<li class="lisl"></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-		</ol>
+	<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="img/1.jpg"></div>
+				<div class="swiper-slide"><img src="img/2.jpg"></div>
+				<div class="swiper-slide"><img src="img/3.jpg"></div>
+				<div class="swiper-slide"><img src="img/4.jpg"></div>
+				<div class="swiper-slide"><img src="img/5.jpg"></div>
+				<div class="swiper-slide"><img src="img/6.jpg"></div>
+				<div class="swiper-slide"><img src="img/7.jpg"></div>
+				<div class="swiper-slide"><img src="img/8.jpg"></div>
+			</div>
+		 <div class="swiper-pagination"></div>
 	</div>
 	
 	
 	</body>
+<script>
+	var mySwiper = new Swiper ('.swiper-container', {
+                 
+	    speed:300,
+	    autoplay:{
+	        dalay:3000,
+	        disableOnInteraction: false
+	    },
+		pagination: {
+			el: '.swiper-pagination',
+			clickable:true
+		},
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		}
+}) 
+</script>
 </html>
+

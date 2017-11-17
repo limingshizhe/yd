@@ -21,11 +21,7 @@ $(function(){
 			$('.ml-lis').after.css({'background':'red'})
 		}*/
 	})
-	
-	
-	
-	
-	
+
 })
 	
 	

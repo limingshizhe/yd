@@ -1,4 +1,4 @@
-$(function(){
+/*$(function(){
 	var tim=null;
 	var i=0;
 	$('#ols').on('click','li',function(){
@@ -38,4 +38,7 @@ $(function(){
 	
 	
 	
-})
+})*/
+
+
+ 
